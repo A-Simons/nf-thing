@@ -10,17 +10,17 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="NF Thing" />
   <Description DefaultValue="A test app." />
-  <IconUrl DefaultValue="https://xlwings.github.io/officejs-helloworld/icons/icon-32.png" />
-  <HighResolutionIconUrl DefaultValue="https://xlwings.github.io/officejs-helloworld/icons/icon-64.png" />
+  <IconUrl DefaultValue="https://a-simons.github.io/nf-thing/icons/icon-32.png" />
+  <HighResolutionIconUrl DefaultValue="https://a-simons.github.io/nf-thing/icons/icon-64.png" />
   <SupportUrl DefaultValue="https://www.xlwings.org/contact" />
   <AppDomains>
-    <AppDomain>https://xlwings.github.io/officejs-helloworld/</AppDomain>
+    <AppDomain>https://a-simons.github.io/nf-thing/</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Workbook" />
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://xlwings.github.io/officejs-helloworld/taskpane.html" />
+    <SourceLocation DefaultValue="https://a-simons.github.io/nf-thing/taskpane.html" />
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -70,16 +70,16 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://xlwings.github.io/officejs-helloworld/icons/icon-16.png" />
-        <bt:Image id="Icon.32x32" DefaultValue="https://xlwings.github.io/officejs-helloworld/icons/icon-32.png" />
-        <bt:Image id="Icon.80x80" DefaultValue="https://xlwings.github.io/officejs-helloworld/icons/icon-80.png" />
+        <bt:Image id="Icon.16x16" DefaultValue="https://a-simons.github.io/nf-thing/icons/icon-16.png" />
+        <bt:Image id="Icon.32x32" DefaultValue="https://a-simons.github.io/nf-thing/icons/icon-32.png" />
+        <bt:Image id="Icon.80x80" DefaultValue="https://a-simons.github.io/nf-thing/icons/icon-80.png" />
       </bt:Images>
       <bt:Urls>
         <!-- This must point to the HTML document with the task pane -->
-        <bt:Url id="Taskpane.Url" DefaultValue="https://xlwings.github.io/officejs-helloworld/taskpane.html" />
+        <bt:Url id="Taskpane.Url" DefaultValue="https://a-simons.github.io/nf-thing/taskpane.html" />
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="MyTab.TabLabel" DefaultValue="Hello World" />
+        <bt:String id="MyTab.TabLabel" DefaultValue="NF Thing" />
         <bt:String id="MyCommandsGroup.Label" DefaultValue="MyGroup" />
         <bt:String id="MyTaskpaneButton.Label" DefaultValue="Show Taskpane" />
       </bt:ShortStrings>
